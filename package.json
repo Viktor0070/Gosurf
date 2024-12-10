@@ -4,7 +4,8 @@
   "description": "start gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" :"serve app/"
     
   },
   "author": "Vadim Prokopchuk",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "serve":"^11.3.2" 
   }
 }
